@@ -1,12 +1,10 @@
-# 🧠 SCM Product List Cleaning using GenAI (Python + OpenAI API)
+#SCM Product List Cleaning using GenAI (Python + OpenAI API)
 
 Automates cleaning of messy Supply Chain product master data. Each raw product name is sent to GPT-4o and returned as three structured fields: `main_product`, `product_type`, `SKU`.
 
-**Author:** [Mehfooz Mohammed](https://github.com/mehfoozmohammed20)
-
 ---
 
-## 📌 Problem
+## Problem
 
 The product master list (1,289 rows) had:
 
@@ -26,7 +24,7 @@ Python · OpenAI API (GPT-4o) · Pandas · tqdm · Google Colab / Jupyter
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 **Prompt engineering**
 1. Find the SKU first (weight, price, count, usually at the end)
@@ -65,7 +63,7 @@ Python · OpenAI API (GPT-4o) · Pandas · tqdm · Google Colab / Jupyter
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Install dependencies
    ```bash
@@ -85,7 +83,7 @@ Python · OpenAI API (GPT-4o) · Pandas · tqdm · Google Colab / Jupyter
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── SCM_Product_List_Cleaning_using_GenAI.ipynb
@@ -96,7 +94,7 @@ Python · OpenAI API (GPT-4o) · Pandas · tqdm · Google Colab / Jupyter
 
 ---
 
-## 🔮 Possible Improvements
+## Possible Improvements
 
 - Send products in batches to cut cost and time
 - Validate output against a known brand list
@@ -104,6 +102,6 @@ Python · OpenAI API (GPT-4o) · Pandas · tqdm · Google Colab / Jupyter
 
 ---
 
-## 🏷 Keywords
+## Keywords
 
 Python, OpenAI API, GPT-4o, Prompt Engineering, Few-shot Prompting, JSON Parsing, Data Cleaning, ETL, Supply Chain Analytics, Pandas, Automation
